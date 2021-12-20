@@ -1,0 +1,34 @@
+title: Notre-Dame de Paris
+baseURL: https://example.com
+languageCode: en-us
+theme: gohugo-theme-ananke
+resourceDir: ../resources
+DefaultContentLanguage: en
+SectionPagesMenu: main
+Paginate: 3
+googleAnalytics: ''
+enableRobotsTXT: yes
+languages:
+  en:
+    contentDir: content/en
+    title: My blog
+    weight: 1
+  fr:
+    contentDir: content/fr
+    title: Mon blogue
+    weight: 2
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+params:
+  ananke_socials:
+    - name: twitter
+      url: https://twitter.com/GoHugoIO
+  author: ''
+  background_color_class: bg-black
+  description: The last theme you'll ever need. Maybe.
+  favicon: ''
+  featured_image: /images/gohugo-default-sample-hero-image.jpg
+  recent_posts_number: 2
+  site_logo: ''
