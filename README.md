@@ -1,2 +1,2 @@
 # medconsult
-Medical school consulting project
+Medical consulting project
